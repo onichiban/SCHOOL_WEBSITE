@@ -1,0 +1,221 @@
+body{
+	font-family: 'Lato', sans-serif;
+	margin:0;
+}
+.card{
+	width: 300px;
+	border:  1px solid red;
+	border-radius: 5px;
+	overflow: hidden;
+}
+.container{
+	/*tope de ancho*/
+	max-width: 1170px;
+	overflow: hidden;
+	margin-right: 1170px;
+	display: flex;
+	justify-content: space-between;
+	margin:0 auto;
+}
+
+.titleContact{
+	color: white;
+	background-color: #8dabc2;
+
+}
+
+.titleSection{
+	text-align: center;
+	font-size: 30;
+	height: 8%;
+	padding: 10px 10px;
+}
+
+.titleSectionOfertaAcademica{
+	color: #32618d;
+}
+
+.card:hover .botonCS{
+	display: block;
+}
+
+.imgOA img{
+	width: 100%;
+
+}
+
+.botonCS{
+	background-color: #ffb606;
+	padding-top: 10px;
+	padding-bottom: 15PX;
+	height:20px;
+	width: 100px;
+	display: none;
+	color: white;
+	text-align: center;
+	border-radius: 9px;
+	text-decoration: none;
+	position: absolute;
+	top:50%;
+}
+
+.footer{
+	text-align: center;
+	background-color: #32818d;
+	color: white;
+	font-size:15px;
+	font-style: none;
+	padding: 10px;
+
+}
+
+/*---------------------------------------------------------------------------------------------*/
+
+
+/*pseudo elemnt*/
+.card-title::after{
+	content: '';
+	background-color: #1ca311;
+	height: 1px;
+	width: 60%;
+	display: block;
+	margin: 0 auto;
+	margin-top: 3px;
+}
+/*pseudo elemnt*/
+
+.botonCS:hover{
+	background-color: #e0a006;
+	transition: 2s;
+}
+.imgOA{
+	position: relative;	
+}
+.card-list li{
+	padding-bottom: 5px;
+}
+.centrar{
+	text-align: center;
+}
+.card-body{
+	text-align: center;
+}
+.card-list{
+	list-style: none;
+	text-align: center;
+	padding: 0px 0px;
+	color: #999999;
+}
+
+.mainheader{
+
+}
+
+.logo{
+	background-color: #32618D;
+	text-align: center;
+	padding-top: 8px;
+	padding-bottom: 8px;
+
+}
+
+.social{
+	position: absolute;
+	top: 40px;
+	right: 90px;
+	font-size: 30px;
+	color: white;
+}
+.social a{
+	color: white;
+	text-decoration: none;
+	margin-right: 20px;
+}
+.menu{
+	text-align: center;
+}
+.menu ul{
+	list-style: none;
+}
+
+.menu ul li{
+	display: inline-block;
+	margin: 1px 10px;
+}
+
+.menu ul li a{
+	text-decoration: none;
+	font-weight: 700;
+	color: #1E3B71;
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-bottom: 5px;
+	transition: all 0.3s ease-in;
+}
+.slider img{
+	width: 100%;
+}
+
+.menu ul li a:hover {
+	color: #8dabc2;
+	border-bottom: 3px solid #8dabc2;
+}
+.imgContact{
+	margin: 0;
+}
+
+.imgContact img{
+	width: 100%;
+}
+
+.contactForm{
+	display: flex;
+	flex-direction: column;
+	/*arriba derecha abajo izquierda*/
+	padding: 0 20px 30px 20px;
+}
+
+.contactForm input[type="text"]{
+	display: block;
+}
+
+.contact .container{
+	display: flex;
+	justify-content: space-around;
+}
+
+.formControl{
+	width: 100%;
+	margin: 15px 0;
+	padding: 7px 0;
+	border-radius: 5px;
+	font-size: 16px;
+	border: 2px solid #bbb;
+}
+
+.ofertaAcademica .container{
+	display: flex;
+	justify-content: space-between;
+}
+
+.btnContact{
+	background-color: #32618D;
+	color: white;
+	font-style: bold;
+	padding: 2%;
+	border-radius: 5px;
+	border-style: transparent;
+	font-size: 20px;
+}
+
+.btnContact:hover{
+	transition: .5s;
+	background-color: #284e72; 
+}
+
+
+/*MEDIA QUERIES*/
+@media screen and (max-width: 768px) {
+
+	
+}
